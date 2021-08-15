@@ -8,7 +8,8 @@ namespace AI102.Samples.TextAnalytics
     class Program
     {
 
-        private static readonly AzureKeyCredential credentials = new AzureKeyCredential("87793c920c454858954523c3c166fae9");
+        // This needs to be removed eventually
+        private static readonly AzureKeyCredential credentials = new AzureKeyCredential("PUSH YOUR KEYS HERE");
         private static readonly Uri endpoint = new Uri("https://sgaitextanalytics.cognitiveservices.azure.com/");
 
         static void Main(string[] args)
